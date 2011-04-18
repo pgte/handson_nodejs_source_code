@@ -1,0 +1,11 @@
+{ "name" : "app1"
+, "version" : "0.1.0"
+, "description" : "Hands-on packaging app example"
+, "author" : "Pedro Teixeira"
+, "main" : "./appjs"
+, "dependencies" :
+  {
+    "express" : ">= 1.0"
+  , "jade" : "0.8.5"
+  }
+}
