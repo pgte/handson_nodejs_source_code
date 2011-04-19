@@ -5,6 +5,7 @@ require('net').createServer(function(socket) {
   sockets.push(socket);
   
   socket.on('data', function(data) {
+    console.log(data.toString());
     sockets.forEach(function(socket) {
       socket.write(data);
     });
