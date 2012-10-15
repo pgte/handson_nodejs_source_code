@@ -22,4 +22,4 @@ function callback(err, result) {
   console.log('done: %j', result);
 }
 
-async.parallel(functions, callback);
+async.series(functions, callback);
